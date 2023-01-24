@@ -51,7 +51,7 @@ public class                                                                    
                     C = random.nextInt(NP);
                 } while (C == I && C != A && C != B);
 
-                int R = random.nextInt(problem.numberOfDimensions);
+    
 
                 double[] y = new double[problem.numberOfDimensions];
                 for (int i = 0; i < problem.numberOfDimensions; i++) {
